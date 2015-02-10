@@ -27,7 +27,7 @@ var redCurrant = {
 
 var berries = [blueberries, grapes, redCurrant];
 
-berries.forEach(function(item){
+/*berries.forEach(function(item){
 
 	document.write("<h2>" + item.name + "</h2>");
 
@@ -49,7 +49,7 @@ berries.forEach(function(item){
 	document.write("<dd>" + item.protein + "</dd>");
 
 	document.write("</dl>");
-});
+});*/
 
 var writeBerries = function (berryName) {
 	berryName.forEach(function(item){
@@ -76,6 +76,8 @@ var writeBerries = function (berryName) {
 
 	});
 };
+
+writeBerries ([blueberries,grapes,redCurrant]);
 
 
 
