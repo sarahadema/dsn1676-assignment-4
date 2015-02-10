@@ -1,4 +1,5 @@
 var blueberries = {
+	name: "Blueberries",
 	family: "Vaccinium Corymbosum",
 	growsOnShrub: true,
 	energy: 240,
@@ -7,6 +8,7 @@ var blueberries = {
 };
 
 var grapes = {
+	name: "Grapes",
 	family: "Vitis Vinifera",
 	growsOnShrub: false,
 	energy: 288,
@@ -15,9 +17,10 @@ var grapes = {
 };
 
 var redCurrant = {
+	name: "Red Currant",
 	family: "Ribes Rubrum",
 	growsOnShrub: true,
-	energy 234,
+	energy: 234,
 	carbohydrates: 13.8,
 	protein: 1.4
 };
@@ -26,6 +29,8 @@ var berries = [blueberries, grapes, redCurrant];
 
 berries.forEach(function(item){
 	document.write("<dl>");
+
+	document.write("<h2>" + item.name + "</h2>");
 
 	document.write("<dt>family</dt>");
 	document.write("<dd>" + item.family + "</dd>");
