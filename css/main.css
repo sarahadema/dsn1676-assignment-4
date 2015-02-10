@@ -1,7 +1,13 @@
 h2 {
-	color:orange;
+	color:#8B008B;
+	text-transform: uppercase;
+}
+
+dt {
+	color:#BA55D3;
+	float: left;
 }
 
 dd {
-
+	color: #9400D3;
 }
