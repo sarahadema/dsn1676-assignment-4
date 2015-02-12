@@ -1,13 +1,31 @@
 h2 {
+	margin:1.5rem;
 	color:#8B008B;
 	text-transform: uppercase;
+}
+
+dl {
+	margin: 1.5rem;
+	padding: 1rem;
+	background-color:#FFF0F5;
+}
+
+dt,dd {
+	margin-top: 0;
+	margin-bottom:1.5rem;
 }
 
 dt {
 	color:#BA55D3;
 	float: left;
+	text-transform: uppercase;
 }
 
 dd {
+	padding-left: 5rem;
 	color: #9400D3;
+}
+
+.background  {
+	color:#FFFAF0;
 }
