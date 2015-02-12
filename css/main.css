@@ -7,7 +7,6 @@ h2 {
 dl {
 	margin: 1.5rem;
 	padding: 1rem;
-	background-color:#FFF0F5;
 }
 
 dt,dd {
@@ -16,14 +15,14 @@ dt,dd {
 }
 
 dt {
-	color:#BA55D3;
+	color:#111;
 	float: left;
-	text-transform: uppercase;
 }
 
 dd {
 	padding-left: 5rem;
 	color: #9400D3;
+	text-transform: uppercase;
 }
 
 .background  {
